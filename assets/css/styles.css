@@ -102,11 +102,8 @@ FOOTER
 	align-items: center;
 	background-color: var(--tertiary-c);
 	color: #FFF;
-	display: flex;
-	flex-direction: column;
 	font-family: 'Oswald', sans-serif;
 	font-size: 75%;
-	justify-content: space-between;
 	margin-top: 3rem;
 	padding: .5rem 1rem;
 	text-align: center;
@@ -127,6 +124,7 @@ HEADER / NAVIGATION
 	font-family: 'Oswald', sans-serif;
 	font-size: 75%;
 	justify-content: space-between;
+	min-height: 2.5rem;
 	padding: 0.5rem 0.5rem;
 }
 .c-logo {
@@ -307,6 +305,8 @@ RWD
 		padding: 0 2rem;
 	}
 	.c-footer {
+		display: flex;
+		justify-content: space-between;
 		flex-direction: row;
 		min-height: 5rem;
 	}
@@ -334,6 +334,7 @@ RWD
 	.c-header {
 		font-size: 100%;
 		justify-content: space-between;
+		min-height: 5rem;
 		padding: 0.5rem 1rem;
 	}
 	.c-nav__item {
