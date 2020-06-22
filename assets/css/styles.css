@@ -253,9 +253,6 @@ SPOT
 Section / Misc.
 ================
 */
-.c-section {
-	display: flex;
-}
 .c-img--mono {
 	filter: grayscale(1);
 	height: 2rem;
@@ -311,6 +308,7 @@ RWD
 	}
 	.c-footer {
 		flex-direction: row;
+		min-height: 5rem;
 	}
 	.c-img--mono {
 		height: 4rem;
