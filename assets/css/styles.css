@@ -129,6 +129,7 @@ HEADER / NAVIGATION
 }
 .c-logo {
 	display: block;
+	text-decoration: none;
 }
 .c-logo img {
 	height: 2rem;
